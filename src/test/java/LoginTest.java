@@ -12,12 +12,12 @@ public class LoginTest extends BaseTest {
 
     @Test
     public void loginTest(){
-        Login.as(webDriver,"dafne","dafne@gmail.com");
+        Login.as(webDriver,"dafne@gmail.com","password");
     }
 
     @Test
     public void logoutTest(){
-        Logout.as(webDriver,"dafne","dafne@gmail.com");
+        Logout.as(webDriver,"dafne@gmail.com","password");
     }
 
 
