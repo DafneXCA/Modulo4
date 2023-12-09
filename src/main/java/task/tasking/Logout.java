@@ -12,6 +12,6 @@ public class Logout {
         Enter.text(driver,HomePageUI.EmailInputLogin,email);
         Enter.text(driver,HomePageUI.PasswordInputLogin,password);
         Click.on(driver,HomePageUI.Login);
-        Click.on(driver, TodoHome.logoutButton);
+        Click.on(driver,TodoHome.logoutButton);
     }
 }
